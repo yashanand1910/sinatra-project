@@ -8,6 +8,6 @@ get '/' do
 end
 post '/' do
 	string = params['string']
-	crypt = encrypt(string, 4)
-	erb :index, :local => { :string => string, :crypt => crypt }
+	@crypt = encrypt(string, 4)
+	erb :index
 end
