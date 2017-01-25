@@ -7,7 +7,6 @@ get '/' do
 	erb :index
 end
 post '/' do
-	string = params['string']
-	@crypt = encrypt(string, 4)
+	@crypt = encrypt(params[:string], params[:index])
 	erb :index
 end
