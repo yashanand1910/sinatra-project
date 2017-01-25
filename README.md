@@ -1,4 +1,4 @@
-## Sinatra Projecy
-# TheOdinProject.com
+# Sinatra Project
+## TheOdinProject.com
 
 A project done under theodinproject.com curriculum.
