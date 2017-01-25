@@ -1,4 +1,4 @@
-load 'cipher.rb'
+require './cipher.rb'
 
 require 'sinatra'
 require 'sinatra/reloader' if development?
